@@ -1057,6 +1057,11 @@ require('lazy').setup({
       end, { desc = 'Open harpoon window' })
     end,
   },
+
+  -- Copilot plugin
+  {
+    'github/copilot.vim',
+  },
   --
   -- For additional information with loading, sourcing and examples see `:help lazy.nvim-🔌-plugin-spec`
   -- Or use telescope!
